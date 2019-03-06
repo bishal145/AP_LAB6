@@ -1,0 +1,6 @@
+l=list(paste("Red", "Green"), c(21,32,11), TRUE, 51.23, 119.1)
+print(l[1])
+print(l[2])
+print(l[3])
+print(l[4])
+print(l[5])

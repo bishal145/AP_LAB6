@@ -1,0 +1,7 @@
+x<-c(10,15,8,2,124,25)
+y<-min(x)
+z<-max(x)
+a<-sum(x)
+print(paste("Minimum Value:",y))
+print(paste("Maximum Value:",z))
+print(paste("Sum:",a))
