@@ -1,9 +1,7 @@
-l=list(paste("Red", "Green"), c(21,32,11), TRUE, 51.23, 119.1)
-print(l)
+#
+#print(y)
 
-x=factor(c('yes','no','yes','no'))
-print(table(x))
+z=read.xlsx("h.xlsx",sheetIndex = 1)
+print(z)
+write.xlsx(z,"g.xlsx",sheetName = "Sheet1")
 
-y=c(1,2,NaN,NA,4)
-print(is.nan(y))
-print(is.na(y))
